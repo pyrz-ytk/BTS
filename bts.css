@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header nav ul li a {
+    color: white !important;
+    margin-right: 2rem;
+}
+
+#header nav ul li a:hover {
+    background-color: rgb(10, 75, 15);
+    color: black !important;
+}
+
+#header nav {
+    background-color: rgb(34, 32, 32) !important;
+}
+
+
+/**********HERO********/
+
+#hero {
+    background-image: url(./6.gif);
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    height: 92.9vh;
+    width: 100%;
+    -moz-background-size: 100% 100%;
+    /* Firefox 3.6 */
+    -o-background-size: 100% 100%;
+    /* Opera 9.5 */
+    -webkit-background-size: 100% 100%;
+    /* Safari 3.0, Chrome */
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+#hero .container {
+    height: 57vh;
+}
+
+#hero .container .b2 {
+    text-align: center;
+    padding-top: 10vh;
+    color: red;
+}
+
+.img-1 {
+    width: 25rem;
+    height: 35vh;
+    border-radius: 1.5rem;
+}
+
+.h-1 {
+    padding-top: 8vh;
+    font-size: 3rem;
+}
+
+.p-1 {
+    margin-top: 2rem;
+}
+
+.i-1 {
+    font-size: 7vh;
+    width: 25rem;
+    height: 25rem;
+    color: green;
+}
+
+.i-1:hover {
+    font-size: 7vh;
+    width: 25rem;
+    height: 25rem;
+    color: rgb(75, 19, 19);
+}
+
+
+/**** HAKKIMDA****/
+
+.isl {
+    float: left;
+}
+
+#hak .container {
+    background-color: white;
+}
+
+.hk {
+    text-align: center;
+}
+
+.blg {
+    text-align: center;
+    color: black;
+}
+
+.yazı {
+    color: black;
+    font-weight: bold;
+}
+
+.yuzde {
+    height: 27.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.etk {
+    padding: 1rem;
+}
+
+
+/**for phone**/
+
+@media only screen and (max-width: 1040px) {
+    .yazı {
+        color: rgb(12, 217, 231);
+        font-weight: bold;
+    }
+    .isl {
+        float: none;
+        margin-left: 10rem;
+    }
+    .hak-p {
+        margin-top: 2rem;
+    }
+}
+
+
+/**for TABLET**/
+
+@media only screen and (max-width: 1040px) {
+    .yazı {
+        color: rgb(102, 1, 40);
+        font-weight: bold;
+    }
+    .isl {
+        float: none;
+        margin-left: 17rem;
+    }
+    .hak-p {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .yazı {
+        color: rgb(102, 1, 40);
+        font-weight: bold;
+    }
+    .isl {
+        float: none;
+        margin-left: 10rem;
+    }
+    .hak-p {
+        margin-top: 2rem;
+    }
+}
+
+
+/**for TABLET**/
+
+@media only screen and (max-width: 768px) {
+    .yazı {
+        color: rgb(102, 1, 40);
+        font-weight: bold;
+    }
+    .isl {
+        float: none;
+        margin-left: 5rem;
+    }
+    .hak-p {
+        margin-top: 2rem;
+    }
+}
+
+
+/**for phone**/
+
+@media only screen and (max-width: 500px) {
+    .yazı {
+        color: rgb(4, 83, 14);
+        font-weight: bold;
+    }
+    .isl {
+        float: none;
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+    .hak-p {
+        margin-top: 2rem;
+    }
+}
+
+
+/**for phone**/
+
+@media only screen and (max-width: 490px) {
+    .yazı {
+        color: rgb(4, 83, 14);
+        font-weight: bold;
+    }
+    .isl {
+        float: none;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .hak-p {
+        margin-top: 2rem;
+    }
+}
